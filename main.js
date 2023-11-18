@@ -47,6 +47,7 @@ function draw(){
             document.getElementById("status").innerHTML = "Status: Objects detected";
            if("person"==objects[i].label){
             document.getElementById("object_status").innerHTML= "baby found";
+            song.stop();
            }
            else{
             document.getElementById("object_status").innerHTML="baby not found";
